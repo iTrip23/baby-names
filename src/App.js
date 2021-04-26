@@ -1,12 +1,12 @@
-import BabyNamesContainer from './BabyNamesContainer.js';
-import BabyNamesList from './data/babyNamesData.json';
-
+import React from 'react';
+import SearchBar from './SearchBar.js';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App mx-auto">
-			<BabyNamesContainer babyNames={BabyNamesList} />
+			<h1>Baby name picker</h1>
+			<SearchBar />
 		</div>
 	);
 }
