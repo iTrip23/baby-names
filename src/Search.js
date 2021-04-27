@@ -6,7 +6,7 @@ const Search = ({ searchValue, setSearchValue }) => {
 	useEffect(() => inputRef.current.focus(), []);
 
 	return (
-		<input className="form-control m-2 mx-auto search-bar" type="search" placeholder="Search names" key='826318' aria-label="Search"
+		<input className="form-control m-2 mx-auto col-8 col-md-3" type="search" placeholder="Search names" key='826318' aria-label="Search"
 			value={searchValue} onChange={handleEvent} ref={inputRef} />
 	)
 }

@@ -1,5 +1,6 @@
 body {
 	min-height: 100vh;
+	background-color:#2FF3E0;
 }
 
 hr {
@@ -8,7 +9,7 @@ hr {
 	margin: 1rem auto;
 	height: 1rem;
 	border: none;
-	background-color: cornflowerblue;
+	background-color: #E1C340;
 	display: block;
 }
 
@@ -48,9 +49,10 @@ hr {
 }
 
 .App {
+	margin: 1rem 0;
 	text-align: center;
-	max-width: 90vw;
-	border: solid 0.5rem hsl(271, 97%, 53%);
+	max-width: 95vw;
+	border: solid 0.5rem #F8EA8C;
 	border-radius: 1rem;
 }
 
