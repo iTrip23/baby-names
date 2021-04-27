@@ -1,6 +1,6 @@
 body {
 	min-height: 100vh;
-	background-color:#2FF3E0;
+	background-color: #2ff3e0;
 }
 
 hr {
@@ -9,13 +9,28 @@ hr {
 	margin: 1rem auto;
 	height: 1rem;
 	border: none;
-	background-color: #E1C340;
+	background-color: #e1c340;
 	display: block;
 }
 
 .gender-logo {
 	height: 2rem;
 	width: 2rem;
+}
+
+.gender-symbols {
+	height: 3rem;
+	width: 3rem;
+	background-color: #ecf87f;
+	border: #81b622 solid 0.3rem;
+	border-radius: 0.5rem;
+	padding: 0.3rem;
+	cursor: pointer;
+}
+
+.gender-symbols:focus {
+	background-color: #3d550c;
+	border-color: #ecf87f;
 }
 
 .search-bar {
@@ -52,7 +67,7 @@ hr {
 	margin: 1rem 0;
 	text-align: center;
 	max-width: 95vw;
-	border: solid 0.5rem #F8EA8C;
+	border: solid 0.5rem #f8ea8c;
 	border-radius: 1rem;
 }
 
