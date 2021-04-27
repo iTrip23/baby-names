@@ -27,6 +27,9 @@ hr {
 	padding: 0.3rem;
 	cursor: pointer;
 }
+button {
+	margin: 0.5rem;
+}
 
 .gender-symbols:focus {
 	background-color: #3d550c;
