@@ -12,17 +12,13 @@ hr {
 	display: block;
 }
 
-.fav-text {
-	font-size: 1rem;
-}
-
 .gender-logo {
 	height: 2rem;
 	width: 2rem;
 }
 
 .search-bar {
-	width: 80vw;
+	width: 30vw;
 	display: block;
 }
 
@@ -44,6 +40,7 @@ hr {
 }
 
 .name-container {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
