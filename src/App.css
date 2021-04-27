@@ -2,13 +2,27 @@ body {
 	min-height: 100vh;
 }
 
+hr {
+	width: 90%;
+	border-radius: 0.5rem;
+	margin: 1rem auto;
+	height: 1rem;
+	border: none;
+	background-color: cornflowerblue;
+	display: block;
+}
+
+.fav-text {
+	font-size: 1rem;
+}
+
 .gender-logo {
 	height: 2rem;
 	width: 2rem;
 }
 
 .search-bar {
-	max-width: 30rem;
+	width: 80vw;
 	display: block;
 }
 
@@ -22,14 +36,14 @@ body {
 	border: solid 0.3rem hsl(207, 83%, 75%);
 }
 
-.baby-card {
-	max-width: 15rem;
+.name-card {
 	margin: 0.5rem;
 	border-radius: 0.3rem;
-	padding: 0.3rem;
+	padding: 0.5rem;
+	cursor: pointer;
 }
 
-.baby-container {
+.name-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import names from './data/babyNamesData.json'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App names={names}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
